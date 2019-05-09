@@ -14,7 +14,6 @@ require "$script_path/chapter02-03.php";
 
 
 // DB接続情報を環境変数から呼び出し
-
 // user名
 $user = getenv('MYSQL_USER');
 // パスワード
@@ -28,8 +27,6 @@ $dsn = "mysql:dbname=$db;host=$host;charset=utf8";
 
 // SQL文作成
 $sql = "SELECT * FROM users LIMIT 20";
-// SQL実行
-#$query = sql($result);
 
 
 // 異常終了回避の為の例外処理
