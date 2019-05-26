@@ -10,7 +10,7 @@
 <table border="1">
   <tr>
     <th>ID番号</th>
-    <th>県名</th>
+    <th>市区町村名</th>
     <th>市区町村番号</th>
     <th>作成時間</th>
     <th>変更時間</th>
